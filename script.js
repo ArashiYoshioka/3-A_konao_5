@@ -4,6 +4,8 @@ function checkAnswer() {
 
     if (answerInput === "ちょうききゅうか") {
         result.textContent = "正解！";
+    } else if (answerInput === "長期休暇") {
+        result.textContent = "正解！";
     } else {
         result.textContent = "残念...";
     }
